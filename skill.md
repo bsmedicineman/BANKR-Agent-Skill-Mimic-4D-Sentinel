@@ -1,6 +1,6 @@
 ---
 name: bankr-mimic-4d-sentinel
-description: BANKR autonomous trading-agent skill implementing wallet/token behavioral mimicry, 4D hyperspace timing (forward/reverse/delayed/anticipatory), a 14+ module Sentinel risk engine, and a permissioned On-Chain Distributed Memory Layer (ODML) gated by the Knightmare $NITE token, with a 0.001 (0.1%) developer fee routed on every executed trade. Use this skill whenever the agent needs to mimic wallets or tokens, run hybrid/inverse/4D/counter/swarm/shadow strategies, score trade risk via Sentinel, read or write ODML intelligence, or determine $NITE access tiers and developer-fee routing.
+description: "BANKR autonomous trading agent skill. Wallet and token behavioral mimicry, 4D hyperspace timing modes, the Sentinel risk engine, ODML on-chain memory with NITE tier gating, and 0.1 percent developer fee routing on every executed trade."
 BANKR Agent — Mimic 4D Sentinel Skill
 Version: Expanded Unified Architecture · Author: Brandon (bsmedicineman)
 This is the lean entry point. The full specification is split across two companion files to keep `SKILL.md` under the install size limit:
