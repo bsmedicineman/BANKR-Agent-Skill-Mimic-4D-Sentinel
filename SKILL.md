@@ -1,11 +1,11 @@
 ---
 name: bankr-mimic-4d-sentinel
 description: BANKR autonomous trading-agent skill implementing wallet/token behavioral mimicry, 4D hyperspace timing, and the Sentinel risk engine.
+version: 1.0.0
 ---
 
 # BANKR Agent — Mimic 4D Sentinel Skill
 Version: Expanded Unified Architecture · Author: Brandon (bsmedicineman)
-
 This is the lean entry point. The full specification is split across two companion files to keep `SKILL.md` under the install size limit:
 
 - `reference.md` — Behavioral & architecture spec (§1–60): data ingestion, mimicry, synchronization, temporal modulation, the Sentinel risk engine, execution, automation, learning, all tunable parameters, the execution pipeline, behavior signatures, and every subsystem engine.
