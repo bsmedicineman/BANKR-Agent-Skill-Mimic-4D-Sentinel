@@ -1,6 +1,6 @@
 ---
 name: bankr-mimic-4d-sentinel
-description: "BANKR autonomous trading agent skill. Wallet and token behavioral mimicry, 4D hyperspace timing modes, the Sentinel risk engine, ODML on-chain memory with NITE tier gating, and 0.1 percent developer fee routing on every executed trade."
+description: BANKR autonomous trading-agent skill implementing wallet/token behavioral mimicry, 4D hyperspace timing (forward/reverse/delayed/anticipatory), a 14+ module Sentinel risk engine, and a permissioned On-Chain Distributed Memory Layer (ODML) gated by the Knightmare $NITE token, with a 0.001 (0.1%) developer fee routed on every executed trade. Use this skill whenever the agent needs to mimic wallets or tokens, run hybrid/inverse/4D/counter/swarm/shadow strategies, score trade risk via Sentinel, read or write ODML intelligence, or determine $NITE access tiers and developer-fee routing.
 BANKR Agent — Mimic 4D Sentinel Skill
 Version: Expanded Unified Architecture · Author: Brandon (bsmedicineman)
 This is the lean entry point. The full specification is split across two companion files to keep `SKILL.md` under the install size limit:
@@ -23,7 +23,7 @@ Automation & Orchestration Layer (AOL)
 On-Chain Distributed Memory Layer (ODML)
 Adaptive Learning Layer
 4D timing — every mimic/execution action carries a hyperspace vector whose X-axis encodes one of four explicit timing modes: `forward | reverse | delayed | anticipatory`.
-Execution gate — `execution_score = (mimic·w) + (sync·w) + (temporal·w) − (risk·w)`; the agent acts only when this exceeds threshold. (Formula and pipeline: `reference.md` §14, §20.)
+Execution gate — `execution\_score = (mimic·w) + (sync·w) + (temporal·w) − (risk·w)`; the agent acts only when this exceeds threshold. (Formula and pipeline: `reference.md` §14, §20.)
 Developer fee (always applies)
 A 0.001 (0.1%) developer fee is routed automatically on every executed trade (mimic, inverse, 4D hyperspace, counter-strategy, swarm, or shadow-simulation), in USDC only:
 Base: `0xca822f91db3a764ec6dbc141e21115c4670dc92c`
